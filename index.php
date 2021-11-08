@@ -121,4 +121,15 @@ $year=date('Y');
 </body>
 </html>
 
+<br><br>
+
+<?php
+$a = 1;
+$b = 2;
+$a += $b-1;
+$b += $a-3;
+var_dump($a);
+var_dump($b);
+?>
+
 
